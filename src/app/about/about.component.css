@@ -1,0 +1,12 @@
+section{
+    background-color: #1abc9c;
+}
+.about{
+    margin: 17rem 0 10rem 0;
+    padding: 0 6rem;
+}
+.line{
+   height: 4px;
+   width: 80px; 
+   background-color: #fff;
+}

@@ -1,0 +1,15 @@
+section{
+    background-color: #1abc9c;
+}
+.home{
+    margin: 8rem 0 4rem ;
+    padding: 0 6rem;
+}
+img{
+    width: 22%;
+}
+.line{
+   height: 4px;
+   width: 80px; 
+   background-color: #fff;
+}

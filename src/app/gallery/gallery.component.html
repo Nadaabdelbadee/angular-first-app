@@ -1,0 +1,17 @@
+<section class="p-5">
+    <div class="row">
+        @for (img of imgs; track $index) {
+            <div class="col-md-4 p-3">
+                <img [src]="img.imgSrc" class="w-100 rounded-3" alt="">
+                <h2 class="text-center">{{img.name}}</h2>
+                <p class="text-center"><span class="fw-bold">cost:</span> {{img.cost}}</p>
+            </div>
+        }
+    </div>
+</section>
+
+<h4 class="text-xl bg-dark text-white py-2 ps-5">Recommended products ...</h4>
+
+@defer (on timer(5s)) {
+    <app-recommended></app-recommended>
+}

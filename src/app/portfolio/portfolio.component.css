@@ -1,0 +1,23 @@
+.line {
+  height: 4px;
+  width: 80px;
+  background-color: #000;
+}
+.layer{
+  background-color: rgba(26, 188, 156, 0);
+  transition: .6s;
+  box-sizing: border-box;
+}
+.parent:hover .layer{
+  background-color: rgba(26, 188, 156, 0.9);
+}
+.parent:hover .layer i{
+ opacity: 1;
+}
+.layer i{
+  font-size: 6rem;
+  opacity: 0;
+  transition: .6s;
+}
+
+
